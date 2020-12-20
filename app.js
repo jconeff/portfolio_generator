@@ -68,12 +68,12 @@ Add a New Project
         {
           type: 'input',
           name: 'name',
-          message: 'What is your name? (Required)',
+          message: 'What is the name of your project? (Required)',
           validate: nameInput => {
             if (nameInput) {
               return true;
             } else {
-              console.log('Please enter your name!');
+              console.log('Please enter a name for your project!');
               return false;
             }
           }
